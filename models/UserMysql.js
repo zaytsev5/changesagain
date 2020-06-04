@@ -13,7 +13,8 @@ mysqlDB.connect(function(err){
 
 
 module.exports = {
-	// THÍCH THÌ DÙNG KHÔNG THÍCH THÌ THÔI
+	// THÍCH THÌ DÙNG KHÔNG THÍCH THÌ THÔI 
+	//CÁI HÀM CỨT NÀY DÙNG ĐỂ LẤY MÃ TUYẾN.. NHƯNG MÀ MÌNH MẶC ĐỊNH Ở MỖI EJS RỒI NÊN KHỎI CŨNG ĐƯỢC =)))
 	
  findPostIdByName:function(src,des,callback){
  	let query = "select * from tuyenxe where DiemDi = ? and DiemDen=?";
